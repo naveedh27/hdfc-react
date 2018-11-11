@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hdfc-react/precache-manifest.3e2fd955383f9dbec4932e65eacee612.js"
+  "/hdfc-react/precache-manifest.a4e86aa7b18c6fc0ec682d1ab88272e5.js"
 );
 
 workbox.clientsClaim();
