@@ -44,21 +44,19 @@ class SearchHelper extends Component {
         }, 300)
     }
 
-
     render() {
 
         return (
             <Search
-                loading={this.state.isLoading}
-                onResultSelect={this.handleResultSelect}
-                onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
-                results={this.state.results}
-                value={this.state.value}
+                loading={ this.state.isLoading }
+                onResultSelect={ this.handleResultSelect }
+                onSearchChange={ _.debounce(this.handleSearchChange, 500, { leading: true }) }
+                results={ this.state.results }
+                value={ this.state.value }
             />
         );
 
     }
 }
-
 
 export default SearchHelper;
