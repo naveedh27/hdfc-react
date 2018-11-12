@@ -2,7 +2,7 @@
   "name": "hdfc-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://naveedh27.github.io/hdfc-react",
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.18.0",
     "loadash": "^1.0.0",
